@@ -1,0 +1,47 @@
+from aiogram.dispatcher.filters.state import State, StatesGroup
+
+
+class BotStates(StatesGroup):
+    BAN_STATE = State()
+    CHECKING_USER_SUBSCRIPTION_STEP = State()
+    MAIN_MENU = State()
+    NEW_ORDER_STEP = State()
+    ACTIVE_ORDERS_STEP = State()
+    MY_PROFILE_STEP = State()
+    BALANCE_STEP = State()
+    SUPPORT_STEP = State()
+    REVIEWS_STEP = State()
+    AFFILIATE_PROGRAM_STEP = State()
+    #
+    SET_BANKING_DETAILS_STEP = State()
+    CASH_IN_STEP = State()
+    CASH_OUT_STEP = State()
+    BECOME_A_PARTNER_STEP = State()
+    BECOME_A_SOLVER_STEP = State()
+    ASK_A_QUESTION_STEP = State()
+    FAQ_STEP = State()
+    #
+    UNFINISHED_ORDER_STEP = State()
+    NEW_ORDER_BY_ADMIN_STEP = State()
+    NEW_ORDER_BY_BOT_STEP = State()
+    MAIN_STANDART_ORDER_MENU_STEP = State()
+    MAIN_NOW_ORDER_MENU_STEP = State()
+    MAIN_IMPORTANT_ORDER_MENU_STEP = State()
+    MAIN_VOLUMINOUS_ORDER_MENU_STEP = State()
+    #
+    GET_ORDER_IMPORTANCE = State()
+    GET_ORDER_SUBJECT_STEP = State()
+    GET_ORDER_TOPIC_STEP = State()
+    GET_ORDER_COMMENT_STEP = State()
+    GET_ORDER_FILES_STEP = State()
+    GET_ORDER_DEADLINE_DATE_STEP = State()
+    GET_ORDER_DEADLINE_TIME_STEP = State()
+    GET_UP_ORDER_SETTINGS_STEP = State()
+    GET_ORDER_FORMAT_STEP = State()
+    GET_ORDER_SUPPORT_DATE_STEP = State()
+    GET_ORDER_SUPPORT_TIME_STEP = State()
+    GET_ORDER_SUPPORT_COMMENT_STEP = State()
+    GET_ORDER_PREFERRED_BUDGET_STEP = State()
+    GET_ORDER_PERCENT_COMPLET_STEP = State()
+    #
+    SEND_ORDER_TO_SOLVERS_STEP = State()
